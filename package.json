@@ -1,12 +1,22 @@
 {
   "name": "stomp-to-kafka-bridge",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Stomp Kafka Bridge package connects stomp with kafka by pushing messages from stomp to kafka and supports config driven topics",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "kafka",
+    "kafkajs",
+    "stomp",
+    "stomp-client",
+    "messaging",
+    "kafka-bridge",
+    "stomp-kafka",
+    "stomp-to-kafka",
+    "stomp-kafka-bridge"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -17,5 +27,9 @@
     "kafkajs": "^1.12.0",
     "stomp-client": "^0.9.0",
     "uuid": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saraogiraj94/stomp-kafka-bridge"
   }
 }
