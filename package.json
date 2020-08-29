@@ -1,6 +1,6 @@
 {
   "name": "stomp-to-kafka-bridge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Stomp Kafka Bridge package connects stomp with kafka by pushing messages from stomp to kafka and supports config driven topics",
   "main": "index.js",
   "scripts": {
